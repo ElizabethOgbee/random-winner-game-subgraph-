@@ -1,13 +1,13 @@
 {
-  "name": "Learnweb3",
+  "name": "random-winner-game",
   "license": "UNLICENSED",
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ ElizabethOgbee/Learnweb3",
-    "create-local": "graph create --node http://localhost:8020/ ElizabethOgbee/Learnweb3",
-    "remove-local": "graph remove --node http://localhost:8020/ ElizabethOgbee/Learnweb3",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 ElizabethOgbee/Learnweb3",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ elizabethogbee/random-winner-game",
+    "create-local": "graph create --node http://localhost:8020/ elizabethogbee/random-winner-game",
+    "remove-local": "gr aph remove --node http://localhost:8020/ elizabethogbee/random-winner-game",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 elizabethogbee/random-winner-game",
     "test": "graph test"
   },
   "dependencies": {
